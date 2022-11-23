@@ -1,0 +1,7 @@
+nome = input('nome:')
+print('Nome todo maiusculo: ',nome.upper())
+print('Nome todo minusculo: ',nome.lower())
+separado = nome.split()
+print("Quantidade de letras da primeira palavra: ", len(separado[0]))
+espaço = nome.count(' ')
+print('Tamanho do nome sem os espaços: ', len(nome) - espaço)
